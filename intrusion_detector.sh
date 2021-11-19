@@ -1,7 +1,7 @@
 #!/bin/bash
 
 port=$1
-update_frequency=$2
+update_frequency=5s
 file=.tmp_file.txt
 nmap_file=nmap_log.txt
 touch $file $nmap_file
